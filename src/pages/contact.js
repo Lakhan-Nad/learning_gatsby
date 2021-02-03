@@ -4,8 +4,14 @@ import Layout from "../components/Layout"
 const ContactPage = function ContactPage() {
   return (
     <Layout>
-      <h1>Contact Us!</h1>
-      <p>This is contact Page.</p>
+      <h1>Contact!</h1>
+      <a href={`https://github.com/Lakhan-Nad`} rel="noreferrer">
+        Github
+      </a>
+      <br />
+      <a href={`https://www.linkedin.in/lakhan-nad`} rel="noreferrer">
+        Linkedin
+      </a>
     </Layout>
   )
 }

@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 
-
 const IndexPage = function IndexPage() {
   return (
     <Layout>
@@ -12,9 +11,13 @@ const IndexPage = function IndexPage() {
         Need a Devloper? <Link to="/contact">Contact me.</Link>
       </p>
       <p>
-        <Link to="https://github.com/Lakhan-Nad" target="_blank">
+        <a
+          href="https://github.com/Lakhan-Nad"
+          target="_blank"
+          rel="noreferrer"
+        >
           My Github
-        </Link>
+        </a>
       </p>
     </Layout>
   )

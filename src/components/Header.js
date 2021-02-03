@@ -43,7 +43,7 @@ const Header = function Header() {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/aboutus"
+              to="/about"
             >
               About
             </Link>
